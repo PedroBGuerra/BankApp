@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login_Activity">
+    tools:context=".Login_Activity"
+    android:background="@color/black">
 
     <ImageView
         android:id="@+id/idLogo"
@@ -27,6 +28,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginBottom="75sp"
         android:text="Welcome to the War Bank"
+        android:textColor="#0F96D1"
         android:textSize="25dp"/>
     <TextView
         android:layout_width="wrap_content"
